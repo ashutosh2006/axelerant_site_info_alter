@@ -26,6 +26,7 @@ class SiteInfoAlterSiteInformationForm extends SiteInformationForm {
       '#default_value' => !empty($config->get('siteapikey')) ? $config->get('siteapikey') : "No API Key yet",
     ];
 
+    //Changng label for Submit button from "Save configuration" to "Update Configuration"
     $form['actions']['submit']['#value'] = t('Update Configuration');
 
     return $form;
