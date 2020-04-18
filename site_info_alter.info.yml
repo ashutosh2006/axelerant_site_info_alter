@@ -1,0 +1,5 @@
+name: 'site_info_alter'
+type: module
+description: 'Alter Site info form'
+core: 8.x
+package: 'Custom'

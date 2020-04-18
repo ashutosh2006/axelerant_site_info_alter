@@ -1,0 +1,13 @@
+{
+    "name": "site_info_alter",
+    "type": "drupal-module",
+    "description": "Alter Site info form",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/site_info_alter",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/site_info_alter",
+        "source": "http://cgit.drupalcode.org/site_info_alter",
+    },
+}

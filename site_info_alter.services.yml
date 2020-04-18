@@ -1,0 +1,7 @@
+#
+services:
+  # alter route for site info
+  site_info_alter.route_alter:
+    class: 'Drupal\site_info_alter\Routing\SiteInfoAlterRoutes'
+    tags:
+      - { name: event_subscriber }
